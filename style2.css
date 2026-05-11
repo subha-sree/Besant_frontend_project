@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.header_class{
+    background-color:  rgb(14, 14, 17);
+    color: white;
+    padding: 26px 3px;
+}
+body{
+    background-color:  rgb(24, 24, 31);
+}
+
+.logo_and_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_and_icon{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 95px;
+}
+.img_and_btn
+{display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+/* this the logo content ==feane */
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: azure;
+}
+.menus ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.menu_img{
+    display: flex;
+    gap: 25px;
+    list-style-type:none;
+  
+}
+.menu_img img{
+  /* border-radius: 15px; */
+   width: 15px;
+  background-color: rgb(7, 7, 7);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+.btn button{
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    width: 160px;
+    height: 45px;
+   
+
+}
+.about{
+    justify-content: center;
+    padding: 100px 250px;
+    display: flex;
+}
+.abt_text
+{
+
+    align-items: center;
+    padding: 140px 0px 0px 80px;
+
+}
+.about_img img {
+    width: 450px;
+    height: 700px; 
+}
+.abt_h2
+{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.abt_para{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    padding: 20px 20px 15px 0px;
+    color: white;
+}
+.abt_para p{
+    font-family:sans-serif;
+    font-size: 16px;
+    padding:0px 0px 25px 0px;
+    color: white;
+}
+.btn_2 button{
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    width: 160px;
+    height: 45px;
+}
